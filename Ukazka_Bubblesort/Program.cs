@@ -34,7 +34,7 @@ namespace Ukazka_Bubblesort
             Random random = new Random();
             for (int i = 0; i < array.Length; i++)
             {
-                array[i] = random.Next(dolniLimit, horniLimit);
+                array[i] = random.Next(dolniLimit, horniLimit); 
             }
         }
         /// <summary>
